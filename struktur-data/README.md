@@ -1,11 +1,12 @@
-# Pengumpulan Tugas - Golang Dasar
+# Pengumpulan Tugas - struktur data
 
 ## Kriteria Tugas
  - Tugas harus sesuai dengan kriteria yang telah ditentukan dalam deskripsi tugas.
  - Setiap solusi wajib menggunakan bahasa pemrograman Go (Golang).
  - Pastikan kode yang dikirim sudah melalui pengecekan dan tidak memiliki error.
 
-## Format File:
-Nama file untuk setiap tugas Golang Dasar harus menggunakan format: Nama.go
+## Format Folder:
+Nama folder untuk setiap tugas golang struktur data harus menggunakan NamaPeserta
 
-- Contoh: asep.go jika nama peserta adalah asep.
+## Format File:
+Nama file untuk setiap tugas Golang Dasar harus menggunakan format: main.go
