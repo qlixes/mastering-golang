@@ -8,5 +8,12 @@
 ## Format Folder:
 Nama folder untuk setiap tugas golang struktur data harus menggunakan NamaPeserta
 
+```sh
+    /struktur-data
+      /nama-siswa
+        main.go
+```
+
 ## Format File:
 Nama file untuk setiap tugas Golang Dasar harus menggunakan format: main.go
+
