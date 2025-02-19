@@ -24,7 +24,7 @@ func StructImplement() {
 	}
 	
 	fmt.Println(newPlayer)
-
+	// array of struct
 	dataOfTeam := []Player{
 		{
 			name: "Messi",
@@ -42,7 +42,8 @@ func StructImplement() {
 			height: 190,
 		},
 	}
-
+   
+	// struct of struct 
 	newTeam := Team {
 		name: "Persija",
 		description: "new team with high budget",

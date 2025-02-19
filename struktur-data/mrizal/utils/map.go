@@ -3,6 +3,7 @@ package utils
 import "fmt"
 
 func MapImplement() {
+	// map dengan tipe data integer sebagai index dan value 
 	nilaiSiswa := map[int]int{
 		1: 9,
 		2: 8,

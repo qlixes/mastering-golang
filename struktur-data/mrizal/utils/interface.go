@@ -11,6 +11,7 @@ type Anjing struct {
 	age int
 }
 
+// struct Anjing yang menerapkan interface dengan fungsi voice() 
 func (a Anjing) voice() string {
 	return "woof woof"
 }

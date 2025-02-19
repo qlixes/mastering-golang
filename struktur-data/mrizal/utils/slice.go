@@ -3,8 +3,9 @@ package utils
 import "fmt"
 
 func SliceImplement() {
+	// inisialisasi slice dengan panjang sebesar 5
 	myPizza := make([]float32, 5)
-	// kesimpulan slice merupakan tipe array yg akan digunakan sebagai deklarasi awal
+	// kesimpulan slice merupakan tipe array yg akan digunakan sebagai deklarasi awal (dinamis size)
 	for index := range myPizza {
 		myPizza[index] = float32(index) + 0.69
 	}
@@ -21,5 +22,6 @@ func SliceImplement() {
 
 	//  berikut slice of array
 	fmt.Println("Menampilkan konten awal slice")
+	// menampilkan data dari index ke - 0 sampai dengan index ke - 4
 	fmt.Println(myPizza[0:5])
 }
