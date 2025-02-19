@@ -1,6 +1,16 @@
-# Pengumpulan Tugas
+Author
+Muhammad Yusril Amin
 
-Setiap peserta diwajibkan untuk mengerjakan dan mengumpulkan tugas Golang Dasar dengan ketentuan sebagai berikut:
+Deskripsi Singkat
+Saya telah mengimplementasikan struktur data primitive dalam Golang sebagai bagian dari tugas Pemahaman Struktur Data dalam Golang.
 
- - Fork Repository Ini: Setiap peserta wajib melakukan forking pada repository ini sebelum memulai pengerjaan tugas.
- - Pull Request (PR): Setelah menyelesaikan tugas, peserta wajib mengirimkan hasil tugas melalui Pull Request (PR) ke repository ini.
+Implementasi
+Variable
+Array
+Slice
+Map
+Interface
+Struct
+
+Tanggung Jawab
+Kode dalam PR ini merupakan hasil kerja saya sendiri tanpa menyalin dari sumber lain. Jika ada referensi, saya akan mencantumkannya dengan jelas. Saya juga menerima konsekuensi jika ada pelanggaran terhadap aturan ini.
