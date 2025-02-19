@@ -1,0 +1,53 @@
+package utils
+
+import "fmt"
+
+type Player struct {
+	name   string
+	role   string
+	height int
+}
+
+type Team struct {
+	name        string
+	description string
+	player      []Player
+}
+
+func StructImplement() {
+
+	// single struct
+	newPlayer := Player{
+		name:   "Ronaldo",
+		role:   "Striker",
+		height: 185,
+	}
+	
+	fmt.Println(newPlayer)
+
+	dataOfTeam := []Player{
+		Player{
+			name: "Messi",
+			role: "Penyerang",
+			height: 170,
+		},
+		Player{
+			name: "Pepe",
+			role: "Defender",
+			height: 190,
+		},
+		Player {
+			name: "Van",
+			role: "Keeper",
+			height: 190,
+		},
+	}
+
+	newTeam := Team {
+		name: "Persija",
+		description: "new team with high budget",
+		player: dataOfTeam,
+	}
+	fmt.Printf("\n\nTim Baru\n")
+	fmt.Println(newTeam)
+}
