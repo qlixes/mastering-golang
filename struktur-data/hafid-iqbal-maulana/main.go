@@ -39,7 +39,23 @@ type DataDiri struct {
 	statusPernikahan   bool
 }
 
+// membuat interface
+type Pengunci interface {
+	pembeli() string
+}
+
+// implementasi interface
+func (input DataDiri) pembeli() string {
+	return input.nama
+}
+func ucapan(input DataDiri) { // memiliki fungsi untuk mmeberikan ucapan
+	fmt.Println("Hello", input.nama)
+}
+
 func main() {
+	author := "weirdOwl-hafid" // pembuatan variable tipe string
+	fmt.Println(author)
+
 	arrayBuah := [...]string{"Nanas", "Semangka", "Melon", "Pir", "Delima", "Jeruk", "Cherry"}
 
 	namaBuah(arrayBuah[:]) // output : {"Nanas", "Semangka", "Melon", "Pir", "Delima", "Jeruk", "Cherry"}
@@ -56,5 +72,4 @@ func main() {
 	} // output : map[Cherry:🍒 Jeruk:🍊 Melon:🍈 Nanas:🍍 Pir:🍐 Semangka:🍉]
 
 	buahMap(iconBuah)
-
 }
