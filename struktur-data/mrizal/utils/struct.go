@@ -26,17 +26,17 @@ func StructImplement() {
 	fmt.Println(newPlayer)
 
 	dataOfTeam := []Player{
-		Player{
+		{
 			name: "Messi",
 			role: "Penyerang",
 			height: 170,
 		},
-		Player{
+		{
 			name: "Pepe",
 			role: "Defender",
 			height: 190,
 		},
-		Player {
+		 {
 			name: "Van",
 			role: "Keeper",
 			height: 190,
