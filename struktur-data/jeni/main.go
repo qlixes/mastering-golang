@@ -103,6 +103,7 @@ func Variables() {
 	fmt.Println(" ini adalah variable number: ", integerNum)
 	fmt.Println(" ini adalah variable float: ", floatNum)
 	fmt.Println(" ini adalah variable complex: ", complexNum)
+
 }
 
 func main() {
