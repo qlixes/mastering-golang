@@ -1,5 +1,5 @@
 Author
-Muhammad Yusril Amin
+Hafid Iqbal Maulana
 
 Deskripsi Singkat
 Saya telah mengimplementasikan struktur data primitive dalam Golang sebagai bagian dari tugas Pemahaman Struktur Data dalam Golang.
