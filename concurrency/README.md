@@ -6,7 +6,7 @@
  - Pastikan kode yang dikirim sudah melalui pengecekan dan tidak memiliki error.
 
 ## Format Folder:
-Nama folder untuk setiap tugas golang struktur data harus menggunakan NamaPeserta
+Nama folder untuk setiap tugas golang Concurrency harus menggunakan NamaPeserta
 
 ```sh
     /concurrency
